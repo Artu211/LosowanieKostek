@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 // walidacja czy pole jest puste
                 if (tekst.isEmpty()) {
                     Toast.makeText(MainActivity.this, "Wpisz liczbę kostek", Toast.LENGTH_SHORT).show();
+                    czyWylosowano = false;
                     return;
                 }
 
